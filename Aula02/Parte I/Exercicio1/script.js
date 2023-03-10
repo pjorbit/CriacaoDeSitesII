@@ -12,3 +12,5 @@ function soma(a,b, c) {
 }
 
 alert(soma(a, b, c))
+
+//CONCLUIDO

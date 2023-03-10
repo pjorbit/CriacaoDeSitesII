@@ -35,4 +35,6 @@ const inteirosDivisiveis = (array) => {
     }
 }
 
-console.log(inteirosDivisiveis(array))
+console.log(inteirosDivisiveis(array));
+
+//CONCLUIDO

@@ -12,3 +12,7 @@ const arrayTamanho = () => {
     }
     return array
 }
+
+console.log(arrayTamanho());
+
+//CONCLUIDO

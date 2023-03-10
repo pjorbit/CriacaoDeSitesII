@@ -17,9 +17,11 @@ array = arrayTamanho();
 console.log(array);
 
 const inverterArray = (array) => {
-    let arrayInvertido = []
+    let arrayInvertido = [];
     arrayInvertido = array.reverse();
     return arrayInvertido
 }
 
 console.log(inverterArray(array));
+
+//CONCLUIDO

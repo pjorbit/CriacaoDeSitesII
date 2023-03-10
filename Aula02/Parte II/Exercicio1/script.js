@@ -9,3 +9,7 @@ const paresVector = () => {
     }
     return arrayUm
 }
+
+console.log(paresVector());
+
+//CONCLUIDO

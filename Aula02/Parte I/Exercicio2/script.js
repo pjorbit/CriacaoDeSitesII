@@ -15,4 +15,6 @@ let fatorial = (x) => {
     }
 }
 
-alert(fatorial(a))
+alert(fatorial(a));
+
+//CONCLUIDO
