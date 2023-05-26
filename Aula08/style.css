@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f3f3f3;
+}
+
+.container {
+    width: 70vw;
+    height: 90vh;
+    border-radius: 24px;
+    box-shadow: 3px 3px 10px #2929298f;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    border-bottom: 1px solid #595959;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#buscar, #limpar {
+    padding: 0.5em 0.9em;
+    font-size: 1em;
+    font-weight: bold;
+    background-color: #2979FF;
+    border: none;
+    border-radius: 8px;
+    color: #f3f3f3;
+}
+
+#limpar {
+    background-color: #FE4365;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: auto;
+    margin-bottom: 2em;
+}
+
+#produtos {
+    width: 80%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card {
+    height: 80%;
+    width: 30%;
+    border: 1px solid #2979FF;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.image{
+    width: 90%;
+    height: 50%;
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.preco {
+    width: 90%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1em;
+}
+
+.preco h6 {
+    font-size: 1.5em;
+}
+
+.comprar button{
+    padding: 0.7em 1em;
+    border-radius: 5px;
+    background-color: #2979FF;
+    color: #f3f3f3;
+    box-shadow: none;
+    border: none;
+    transition: 0.2s ease-out;
+}
+
+.comprar button:hover {
+    background-color: #f3f3f3;
+    border: 1px solid #2979FF;
+    color: #2979FF;
+}
